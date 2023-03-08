@@ -6,7 +6,7 @@ services:
       dockerfile: ./Dockerfile
     tty: true
     init: true
-    working_dir: "/src"
+    working_dir: "/nuxt-app"
     volumes:
       - ./src:/nuxt-app
     ports:
