@@ -3,11 +3,14 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev -p 4000",
+    "lint": "eslint .",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "nuxt": "^3.2.3"
   }
 }
