@@ -11,7 +11,7 @@ ps:
 	docker compose ps
 
 node:
-	docker compose exec app sh
+	docker compose exec app bash
 
 dev:
-	docker compose exec app sh -c 'cd nuxt-app && npm run dev'
+	docker compose exec app sh -c 'npm run dev'
