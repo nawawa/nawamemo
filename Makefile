@@ -14,4 +14,4 @@ node:
 	docker compose exec app bash
 
 dev:
-	docker compose exec app sh -c 'npm run dev'
+	docker compose exec app sh -c 'npm run dev -- -o'
