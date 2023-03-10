@@ -3,14 +3,20 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev -p 4000",
-    "lint": "eslint .",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "nuxt": "^3.2.3"
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "nuxt": "^3.2.3",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
   }
 }

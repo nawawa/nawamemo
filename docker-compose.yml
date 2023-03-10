@@ -6,8 +6,8 @@ services:
       dockerfile: ./Dockerfile
     tty: true
     init: true
-    working_dir: "/nuxt-app"
+    working_dir: "/nawamemo"
     volumes:
-      - ./src:/nuxt-app
+      - ./src:/nawamemo
     ports:
       - "4000:4000"

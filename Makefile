@@ -15,3 +15,6 @@ node:
 
 dev:
 	docker compose exec app sh -c 'npm run dev -- -o'
+
+destroy:
+	docker-compose down --rmi all --volumes --remove-orphans
